@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
 /dist
-android
-ios
+/android
+/ios
 
 # local env files
 .env.local
