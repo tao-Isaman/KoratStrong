@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import login from '../views/login.vue'
+import cardlist from "../views/cardlist.vue"
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ Vue.use(VueRouter)
     name: 'login',
     component: login
   },
+  {
+    path:"/cardlist",
+    name:"cardlist",
+    component: cardlist
+  }
 
 ]
 
